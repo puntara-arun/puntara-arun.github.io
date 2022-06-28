@@ -40,7 +40,7 @@
     </h1>
 
     <div
-      class="container p-4 shadow-box"
+      class="container p-4 shadow-box mx-auto"
       style="background-color: white; border-radius: 50px; max-width: 1000px"
     >
       <!-- --------------------Projects -------------------------------------------------------------------- -->
@@ -57,22 +57,22 @@
             data-target="#detailModal"
           >
             <!-- begin timeline-time  (Left)-->
-            <div class="col-1 text-right">
+            <div class="col-sm-1 text-left text-sm-right ">
               <h5 class="date font-weight-bold">{{ project.date }}</h5>
             </div>
 
-            <div class="col-11">
+            <div class="col-sm-11">
               <div class="container-fluid row">
-                <div class="col-6">
+                <div class="col-sm-6 d-flex  justify-content-center align-items-center">
                   <img
                     class="project-icon"
-                    style="border-radius: 50%; width: 50%; min-width: 80px"
+                    style="border-radius: 50%; width: 50%; height:auto; min-width: 80px"
                     v-bind:src="project.img_title"
                     alt="icon"
                   />
                 </div>
-                <div class="col-6 text-left d-flex align-items-center">
-                  <h2 class="font-weight-bold project-title">{{ project.title }}</h2>
+                <div class="col-sm-6 text-center  text-sm-left mx-auto">
+                  <h2 class="pt-4 font-weight-bold project-title ">{{ project.title }}</h2>
                 </div>
               </div>
             </div>
@@ -92,14 +92,14 @@
       alt="profile"
       style="
         border-radius: 50%;
-        width: 40vh;
-
+        width: 40%;
+        max-width:40vh;
         margin-top: 100px;
         border: 10px solid white;
       "
     />
     <div
-      class="container p-4 shadow-box"
+      class="container p-4 shadow-box mx-auto"
       style="
         background-color: white;
         border-radius: 50px;
@@ -109,11 +109,11 @@
     >
       <!-- ----------------------- About ------------------------------------ -->
       <div id="about-content" class="container-fluid box" style="padding-top: 150px">
-        <h1 class="align-self-center m-1" style="">Puntara Arunratanadilok</h1>
-        <h3 class="align-self-center m-1" style="">
+        <h2 class="align-self-center m-1" style="">Puntara Arunratanadilok</h2>
+        <h5 class="align-self-center m-1" style="">
           <i class="fa-solid fa-envelope"></i>
           &nbsp; puntara.arun@gmail.com
-        </h3>
+        </h5>
       </div>
     </div>
 
