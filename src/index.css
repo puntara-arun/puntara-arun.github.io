@@ -1,0 +1,111 @@
+#app {
+  font-family: Roboto, Helvetica, Space Grotesk, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: black;
+}
+
+.project-set{
+  transition: 0.2s;
+  cursor: pointer;
+  border: 1px solid #c7c7c7;
+  font-family: Space Grotesk;
+
+}
+
+
+
+.project-set:hover{
+border-left: 6px solid #FEBFA2;
+
+
+}
+
+
+
+.shadow-box{
+  box-shadow: 2px 2px 1px #888888;
+
+}
+
+.sub-detail{
+  display: none;
+  transition: 0.3s;
+
+}
+
+.project-set:hover .sub-detail{
+  display: block;
+
+  }
+
+  .project-title{
+    color:rgba(255,191,161,1) ;
+
+    transition: 0.2s;
+
+  }
+
+  .project-set:hover .project-title{
+    color: rgb(187,155,204);
+
+  }
+
+
+.headline-detail{
+  background: rgba(255,191,161,1); 
+  padding:10px 20px;
+  border-radius:25px;
+
+}
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius:50%;
+  background-color: white;
+}
+
+.back-to-top:hover {
+
+  background-color: #FEBFA2;
+
+}
+
+.navigate-btn {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  border-radius:50%;
+  background-color: white;
+}
+
+
+.navigate-btn:hover {
+ 
+  background-color: rgb(187,155,204);
+
+}
+
+.dropdown-item{
+  margin: 8px;
+  background-color: white;
+  border-radius: 25px;
+  padding:10px 0px 10px 25px;
+  transition: 0.2s;
+
+}
+
+.dropdown-item:hover{
+  background-color:  rgb(187,155,204);
+  
+}
+
+.dropdown-menu{
+  background: rgba(76, 175, 80, 0);
+  border: none;
+
+}
+

@@ -1,0 +1,289 @@
+{
+    "projects": [{
+            "title": "Po's Journey",
+            "sub": "AR Multiple Ending Story Game",
+            "img_title": "src/assets/png/projects/po's journey/icon.jpg",
+            "img_detail": "src/assets/png/projects/po's journey/img_main.png",
+            "language": "C#",
+            "software": ["Unity3D", "Blender"],
+            "genre": ["Visual Novel", "Puzzel"],
+            "contributed": "SPAK Team (4 members)",
+            "course": "Capstone Project (Seminar Project)",
+            "os": "Android",
+            "description": "AR mobile application with a multi-ending storybook for English self-studying. The user starts playing the application by scanning the storybook. Then, the application will display 3D models, vocabulary, and choices that have consequences on the different endings. Additionally, the user can play the minigame to review the vocabulary and collect points to redeem for rewards.",
+            "responsibility": ["Plotting and writing multiple ending story", "Designing an application architecture, flowcharts of process, wireframe of UX/UI (only the page of Login, Continue, AR module, Multiple choice for story, and Minigame), and database", "Coding AR module, User account module, and Minigame module", "Integrating the system", "Writing the thesis report"],
+            "gallery": [{
+                "link": "src/assets/png/projects/po's journey/1.jpg",
+                "topic": "AR Module",
+                "descript": "In AR module, a user can click the red text in story box to show a word button that can tell a word detail"
+            }, {
+                "link": "src/assets/png/projects/po's journey/2.png",
+                "topic": "Multiple Choice",
+                "descript": "When the user choose one of them, system will show the next scenario that affected by a choice"
+            }, {
+                "link": "src/assets/png/projects/po's journey/3.jpg",
+                "topic": "Minigame",
+                "descript": "Drag & Drop system"
+            }, {
+                "link": "src/assets/png/projects/po's journey/4.png",
+                "topic": "Reward System",
+                "descript": "When the user collect points from click word button, user can exchange points to rewards"
+            }, {
+                "link": "src/assets/png/projects/po's journey/5.jpg",
+                "topic": "Story diagram",
+                "descript": "all alternative route in this story. (5 endings)"
+            }],
+            "github": "https://github.com/SPAK-Team/AR-Applicarion-for-Digital-Storytelling",
+            "date": "May 2022"
+
+        }, {
+            "title": "CastAway",
+            "sub": "Simulation Game with Weather Report",
+            "img_title": "src/assets/png/projects/castaway/icon.png",
+            "img_detail": "src/assets/png/projects/castaway/img_main.png",
+            "language": "Kotlin",
+            "software": ["AndroidStudio"],
+            "genre": ["Simulation"],
+            "contributed": "Ricetta Team (3 members)",
+            "course": "Mobile Device Programming",
+            "os": "Android",
+            "description": "A simulation game where players become stranded on an island from a shipwreck. The goal of the game is to escape from this island. To reach the goal, it is necessary to collect wood by cutting the tree to make a boat and solve the problem of hunger from foraging. The environment in the game will change according to the time and weather conditions based on the actual weather conditions of the player's location.",
+            "responsibility": ["Designing Game Concept (ex. adapt mobile sensor lessons into a game)", "Designing Game Architecture, Workflow, and Wireframe", "Creating a Character", "Coding and Testing an application"],
+            "gallery": [{
+                "link": "src/assets/png/projects/castaway/1.png",
+                "topic": "Login Page",
+                "descript": "User can register and log in. (must be registered account to play this game)"
+            }, {
+                "link": "src/assets/png/projects/castaway/2.png",
+                "topic": "Main Page",
+                "descript": "The game environment changes based on the actual weather and timezone of user's location (GPS)"
+            }, {
+                "link": "src/assets/png/projects/castaway/3.png",
+                "topic": "Tree page",
+                "descript": "Swipe the tree to cut wood, and Shake the tree to collect apple"
+            }],
+            "github": "https://github.com/Ricetta-WebProgramming/CastAways-Simulation-Game",
+            "date": "Dec 2021"
+
+        }, {
+            "title": "Video Speech to Text",
+            "sub": "Speech Recognition using NLP Model",
+            "img_title": "src/assets/png/projects/videospeech/icon.png",
+            "img_detail": "src/assets/png/projects/videospeech/img_main.jpg",
+            "language": "Python",
+            "software": ["Google Colab"],
+            "genre": ["None"],
+            "contributed": "Ricetta Team (3 members)",
+            "course": "Natural Language & Speech processing",
+            "os": "None",
+            "description": "An application that receives the inputs, including Youtube links and video files (.mp4 and .mkv extension), predicts its speech and saves the result in a text file. this application uses the pretrained NLP model (Wav2Vec2 Model from airesearch/wav2vec2-largexlsr-53-th) and Librosa library.",
+            "responsibility": ["Designing the workflow", "Coding the sections, including video transformation and audio resampling", "Integrating all section of source code"],
+            "gallery": [{
+                "link": "src/assets/png/projects/videospeech/1.jpg",
+                "topic": "Example of the output",
+                "descript": "The output is saved in the same name text file"
+            }, {
+                "link": "src/assets/png/projects/videospeech/2.jpg",
+                "topic": "Compare the speech",
+                "descript": "compare between the predict speech (left) and the actual speech (right)"
+            }],
+            "github": "https://github.com/Ricetta-WebProgramming/NLP-Project2-SpeechRecognization",
+            "date": "Dec 2021"
+
+        }, {
+            "title": "Smart Medical Bed",
+            "sub": "Medical Bed for Parient & Caretaker (Demo)",
+            "img_title": "src/assets/png/projects/smartbed/icon.png",
+            "img_detail": "src/assets/png/projects/smartbed/img_main.png",
+            "language": "Python",
+            "software": ["Command Prompt","(Hardware) Rasberry Pi3"],
+            "genre": ["None"],
+            "contributed": "SPAK Team (4 members)",
+            "course": "Embedded System",
+            "os": "None",
+            "description": "A smart medical bed for patient care that can resolve a pressure ulcer problem from lying on the bed too long by detecting physical pressure, skin infection problem from unchanging a diaper too long by detecting humidity inside a patient's diaper, and monitoring closely a patient who has a serious injury problem from detecting the heartbeat signal using finger",
+            "responsibility": ["Designing the workflow of software", "Coding the software of embedded project", "Creating the Line Chatbot to notify a caretaker and the Data Logger (Google Sheet API)"],
+            "gallery": [{
+                "link": "src/assets/png/projects/smartbed/1.png",
+                "topic": "Smart bed",
+                "descript": "the LED monitor on a bedhead show the values of input sensors. When the value reaches a certain point (ex. the patient lying in the same position too long or the patient urinates), the buzzer will alarm and the chatbot will notify"
+            }, {
+                "link": "src/assets/png/projects/smartbed/2.png",
+                "topic": "Chatbot",
+                "descript": "In addition to notifications, the chatbot can tell about recent and past status of the smart bed"
+            }, {
+                "link": "src/assets/png/projects/smartbed/3.png",
+                "topic": "Data Logger",
+                "descript": "The logs of the smart bed will be saved in Google Sheet"
+            }],
+            "github": "",
+            "date": "Dec 2021"
+
+        }, {
+            "title": "Ricetta",
+            "sub": "Food Recipes Community Website",
+            "img_title": "src/assets/png/projects/ricetta/icon.png",
+            "img_detail": "src/assets/png/projects/ricetta/img_main.jpg",
+            "language": "Vue.js (html, css, javascript)",
+            "software": ["Visual Studio Code"],
+            "genre": ["None"],
+            "contributed": "Ricetta Team (3 members)",
+            "course": "Web Programming",
+            "os": "None",
+            "description": "A web application for people who love creating recipes, and want to publish them to others like a forum about recipes. With this application, users can upload their menu recipes onto the website. It can give recipe enthusiasts a space to spread their creativity. and can share their opinions",
+            "responsibility": ["Designning the architecture of website","Coding and Testing the website application"],
+            "gallery": [{
+                "link": "src/assets/png/projects/ricetta/1.jpg",
+                "topic": "User Account Page",
+                "descript": "The user must log in or register before use this application"
+            }, {
+                "link": "src/assets/png/projects/ricetta/2.jpg",
+                "topic": "Profile Page",
+                "descript": "The user can create, edit, and delete their activities (post recipes,like and comment other recipes)"
+            }, {
+                "link": "src/assets/png/projects/ricetta/3.jpg",
+                "topic": "Create and Edit a recipe post",
+                "descript": "The user can post their recipes by filling the form in the application"
+            }],
+            "github": "https://github.com/Ricetta-WebProgramming/Ricetta-Food-Recipes-Community-Website",
+            "date": "May 2021"
+
+        }, {
+            "title": "Pacman ",
+            "sub": "Maze Chase Game (Genshin Impact Fangame)",
+            "img_title": "src/assets/png/projects/pacman/icon.png",
+            "img_detail": "src/assets/png/projects/pacman/img_main.png",
+            "language": "C++",
+            "software": ["GameMaker 8.1 Lite version"],
+            "genre": ["Maze"],
+            "contributed": "Solo",
+            "course": "Artificial Intelligence",
+            "os": "Windows",
+            "description": "A Pacman game in a fan game theme. In a game that the player must collect all of the items before they are caught by the enemy.",
+            "responsibility": ["Drawing the sprite characters","Designning Game environment (Map)","Coding the enemy action that can chase a player by using 2D array and almost BFS pathfinding algorithm"],
+            "gallery": [{
+                "link": "src/assets/png/projects/pacman/1.png",
+                "topic": "Maze board",
+                "descript": "1 element per 1 movement of character.The characters can move on a brown element only"
+            }, {
+                "link": "src/assets/png/projects/pacman/2.png",
+                "topic": "2D Character Sprites",
+                "descript": "Creating the Player and the enemy graphic to make it have a movement animation"
+            }],
+            "github": "",
+            "date": "Feb 2021"
+
+        }, {
+            "title": "Pako Cafe",
+            "sub": "Cooking Cafe game",
+            "img_title": "src/assets/png/projects/pako/icon.png",
+            "img_detail": "src/assets/png/projects/pako/img_main.png",
+            "language": "Java",
+            "software": ["Apache NetBeans"],
+            "genre": ["Simulation","Cooking"],
+            "contributed": "SPAK Team (4 members)",
+            "course": "Data structures & Algorithms",
+            "os": "Windows",
+            "description": "A game that the player takes on the role of a cook who cooks food for animal customers and collects money from them",
+            "responsibility": ["Designning the process of application","Coding the main session (ex. Multithread-customers), cooking session, and object display session","Testing and Debugging the application"],
+            "gallery": [{
+                "link": "src/assets/png/projects/pako/1.png",
+                "topic": "Cooking Session",
+                "descript": "Drag the ingredients to make a food that customers request. (Recipe guideline is the note at right)"
+            }],
+            "github": "https://github.com/SPAK-Team/PakoCafe",
+            "date": "Dec 2019"
+
+        }, {
+            "title": "Paricle Cannon",
+            "sub": "Shooting Game",
+            "img_title": "src/assets/png/projects/particle/icon.png",
+            "img_detail": "src/assets/png/projects/particle/img_main.png",
+            "language": "Java",
+            "software": ["Apache NetBeans"],
+            "genre": ["Simulation","Cooking"],
+            "contributed": "SPAK Team (4 members)",
+            "course": "Programming Techniques",
+            "os": "Windows",
+            "description": "A game that the player takes the role of a PM2.5-destroying vehicle whose job is to remove as much dust as possible from the air",
+            "responsibility": ["Designning the processes and developing the code which is about object display, finding the location of the target, shooting algorithm, and PM2.5 generator.","Testing and debugging program"],
+            "gallery": [{
+                "link": "src/assets/png/projects/particle/1.png",
+                "topic": "Game UI",
+                "descript": "the dusts (enemy) will be generated while the player playing. When the player shoot the dust, it will be destroyed"
+            }],
+            "github": "https://github.com/puntara-arun/ParticleCannon",
+            "date": "Apr 2019"
+
+        }, {
+            "title": "History of The Black Death",
+            "sub": "Story Game using RPG Maker",
+            "img_title": "src/assets/png/projects/blackdeath/icon.png",
+            "img_detail": "src/assets/png/projects/blackdeath/img_main.png",
+            "language": "None",
+            "software": ["RPG Maker"],
+            "genre": ["Visual Novel","Puzzle"],
+            "contributed": "Mattayom 6 Group (7 members)",
+            "course": ["Information and communication technolog", "Health and hygiene"],
+            "os": "Windows",
+            "description": "A game that infuses knowledge of the medieval plague (Black Death) through the story of Simon, a simple boy who has fallen into the past",
+            "responsibility": ["Writing the Story","Designning and Creating the character (both profiles and sprites)","Designning the game environment","Creating the application by using the RPG Maker"],
+            "gallery": [{
+                "link": "src/assets/png/projects/blackdeath/1.png",
+                "topic": "Example of Game UI",
+                "descript": "The player will talk to npc in the game to learn about the Black Death and finish the game."
+            },{
+                "link": "src/assets/png/projects/blackdeath/2.png",
+                "topic": "Example of Game UI 2",
+                "descript": "The player will talk to npc in the game to learn about the Black Death and finish the game."
+            },{
+                "link": "src/assets/png/projects/blackdeath/3.png",
+                "topic": "Example of Game environment",
+                "descript": "The player must resolve the puzzle in some map to continue the story"
+            },{
+                "link": "src/assets/png/projects/blackdeath/4.jpg",
+                "topic": "Example of Character Profiles",
+                "descript": "for showing charcter expression in the story"
+            },{
+                "link": "src/assets/png/projects/blackdeath/5.png",
+                "topic": "Example of Character Sprites",
+                "descript": "Creating the Player and the NPC graphic to make it have a movement animation"
+            }],
+            "github": "",
+            "date": "Sep 2016"
+
+        }, {
+            "title": "DGFG : Dress Game For Girl",
+            "sub": "Dress-up Game using Adobe Flash",
+            "img_title": "src/assets/png/projects/dgfg/icon.png",
+            "img_detail": "src/assets/png/projects/dgfg/img_main.png",
+            "language": "None",
+            "software": ["Adobe Flash"],
+            "genre": ["Dress-up"],
+            "contributed": "Mattayom 3 Group (4 members)",
+            "course": ["Information and communication technolog"],
+            "os": "Windows",
+            "description": "A simple dress-up game that the player choose the clothes for the girl",
+            "responsibility": ["Designning and Creating the character and objects in this game","Creating this application by using Adobe Flash"],
+            "gallery": [{
+                "link": "src/assets/png/projects/dgfg/1.png",
+                "topic": "Example of Game UI",
+                "descript": "The player can drag and drop objects(clothes and accessories) on the girl"
+            }],
+            "github": "",
+            "date": "Feb 2014"
+
+        }
+
+
+
+
+
+
+    ]
+
+
+
+
+
+}
